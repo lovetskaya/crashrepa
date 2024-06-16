@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Улучшаем расчет размеров */
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #f1fbf8;
+  color: #013022;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Высота на весь экран */
+}
+
+header {
+  background-color: #fae2e2;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #dac2d7;
+}
+
+.container {
+  width: 90%; /* Уменьшаем ширину контейнера */
+  max-width: 1200px; /* Максимальная ширина */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-top: 50px;
+  width: 100%; /* Ширина формы на весь контейнер */
+  max-width: 500px; /* Максимальная ширина формы */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label, button, input {
+  width: 100%; /* Ширина элементов на весь контейнер */
+  margin-bottom: 10px; /* Отступ снизу для каждого элемента */
+}
+
+.searchDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.downloads,
+.results {
+  width: 100%;
+  border: 2px solid #dac2d7;
+  padding: 20px; /* Добавляем внутренние отступы */
+}
+
+.link,
+.url {
+  display: block; /* Ссылки на всю ширину контейнера */
+  border: 1px solid #dac2d7;
+  padding: 10px; /* Внутренние отступы для ссылок */
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  width: 100%; /* Заголовки на всю ширину контейнера */
+  text-align: center; /* Выравнивание текста по центру */
+}

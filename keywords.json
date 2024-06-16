@@ -1,0 +1,22 @@
+[
+    {
+      "keyword": "магазин",
+      "urls": ["https://postila.ru/post/72075595", 
+      "https://www.imagetext.ru/inscription-3616.php"]
+    },
+    {
+      "keyword": "рубрика",
+      "urls": [
+        "https://www.greatpicture.org/ya-ne-zametil-kak-ona-ushla-potryasayushhee-stihotvorenie/", 
+        "https://www.greatpicture.org/pochemu-muzhchiny-obmanyvayut-zhenschin/", 
+        "https://www.greatpicture.org/vse-rubriki/astrologia/"
+      ]
+    },
+    {
+      "keyword": "сообщества",
+      "urls": [
+        "https://sites.google.com/view/pawsforlove",
+        "https://soulexpert.ru/#quote"
+      ]
+    }
+  ]
